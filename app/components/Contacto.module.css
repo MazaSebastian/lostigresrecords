@@ -38,6 +38,33 @@
   }
 }
 
+@media (max-width: 480px) {
+  .contacto {
+    padding: 60px 0;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+  
+  .title {
+    font-size: 28px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+  }
+  
+  .formContainer {
+    padding: 30px 20px;
+  }
+  
+  .formGroup input,
+  .formGroup textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+
 .subtitle {
   font-size: 18px;
   color: #AAAAAA;
