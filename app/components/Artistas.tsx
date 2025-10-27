@@ -39,9 +39,9 @@ const artists: Artist[] = [
     genre: 'Urbano',
     description: 'DJ Reggaeton',
         images: [
-          '/images/artists/seba 1.jpg',
-          '/images/artists/seba 2.jpg',
-          '/images/artists/seba 3.jpg'
+          '/images/artists/seba-maza-1.jpg',
+          '/images/artists/seba-maza-2.jpg',
+          '/images/artists/seba-maza-3.jpg'
         ],
     socialMedia: {
       instagram: 'https://instagram.com',
@@ -55,9 +55,9 @@ const artists: Artist[] = [
     genre: 'Urbano',
     description: 'Cantante/Compositor',
         images: [
-          '/images/artists/valen 1.jpg',
-          '/images/artists/valen 2.jpg',
-          '/images/artists/valen 3.jpg'
+          '/images/artists/valentin-vargas-1.jpg',
+          '/images/artists/valentin-vargas-2.jpg',
+          '/images/artists/valentin-vargas-3.jpg'
         ],
     socialMedia: {
       instagram: 'https://instagram.com',

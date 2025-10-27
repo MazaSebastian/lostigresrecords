@@ -34,7 +34,7 @@ const releases: Release[] = [
     title: 'Tan Loca | INSOMNIO #1',
     artist: 'Dj Ruben Guzman ft. Juan Portella',
     type: 'Single',
-    cover: '/images/releases/tan loca.png',
+    cover: '/images/releases/tan-loca-insomnio.png',
     platforms: {
       spotify: 'https://open.spotify.com/intl-es/track/3XPsfdjJPPIpFoKqljrlTL?si=b72d06d24e784f03',
       apple: 'https://music.apple.com/us/album/example2',
@@ -46,7 +46,7 @@ const releases: Release[] = [
     title: 'Por Ese Hombre',
     artist: 'Aneley ft. Maxi Espindola, Valen',
     type: 'Single',
-    cover: '/images/releases/valen.png',
+    cover: '/images/releases/por-ese-hombre.png',
     platforms: {
       spotify: 'https://open.spotify.com/intl-es/album/6NvHIKUxJtUJnLSrcNYDRL',
       apple: 'https://music.apple.com/us/album/example3',
@@ -58,7 +58,7 @@ const releases: Release[] = [
     title: 'Que no pare',
     artist: 'Fercho Energy, Sebaa Maza',
     type: 'Single',
-    cover: '/images/releases/quenopare.png',
+    cover: '/images/releases/que-no-pare.png',
     platforms: {
       spotify: 'https://open.spotify.com/intl-es/track/1slVFJDvlo9j8tEVhKEQ9q?si=419276d7120c4f57',
       apple: 'https://music.apple.com/us/album/example4',
@@ -70,7 +70,7 @@ const releases: Release[] = [
     title: 'Un Montón De Estrellas',
     artist: 'Didac Torres, Mily Britez',
     type: 'Single',
-    cover: '/images/releases/estrellas.png',
+    cover: '/images/releases/un-monton-de-estrellas.png',
     platforms: {
       spotify: 'https://open.spotify.com/intl-es/album/0tMoGxHMivVZlql2UXCiry',
       apple: 'https://music.apple.com/us/album/example5',
@@ -82,7 +82,7 @@ const releases: Release[] = [
     title: 'La cone',
     artist: 'Blezan, Treekoo',
     type: 'Single',
-    cover: '/images/releases/blezna.png',
+    cover: '/images/releases/la-cone.png',
     platforms: {
       spotify: 'https://open.spotify.com/intl-es/album/4XjDNSyvZhdbkppbq1KkGl',
       apple: 'https://music.apple.com/us/album/example6',
