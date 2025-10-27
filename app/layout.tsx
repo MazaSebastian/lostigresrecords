@@ -11,6 +11,18 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Los Tigres Records",
   description: "Sello discográfico latino de música moderna. Descubre artistas, lanzamientos y más.",
+  openGraph: {
+    title: "Los Tigres Records",
+    description: "Sello discográfico latino de música moderna. Descubre artistas, lanzamientos y más.",
+    url: "https://lostigresrecords.vercel.app",
+    siteName: "Los Tigres Records",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Los Tigres Records",
+    description: "Sello discográfico latino de música moderna. Descubre artistas, lanzamientos y más.",
+  },
 };
 
 export default function RootLayout({
