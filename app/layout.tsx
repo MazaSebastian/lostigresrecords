@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Los Tigres Records - El rugido del sonido latino moderno",
+  title: "Los Tigres Records",
   description: "Sello discográfico latino de música moderna. Descubre artistas, lanzamientos y más.",
 };
 
