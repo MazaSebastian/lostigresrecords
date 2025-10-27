@@ -1,6 +1,6 @@
 # Los Tigres Records 🐅
 
-Sitio web moderno y elegante para el sello discográfico **Los Tigres Records** - El rugido del sonido latino moderno.
+Sitio web moderno y elegante para el sello discográfico **Los Tigres Records**.
 
 ## 🎨 Características
 
@@ -136,4 +136,4 @@ npm run start
 
 ---
 
-**Los Tigres Records** - El rugido del sonido latino moderno 🎵
+**Los Tigres Records** - Sello discográfico latino 🎵

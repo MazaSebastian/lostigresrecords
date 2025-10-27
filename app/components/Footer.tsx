@@ -8,7 +8,7 @@ export default function Footer() {
           <div className={styles.brand}>
             <h3>LOS TIGRES</h3>
             <p>RECORDS</p>
-            <span className={styles.tagline}>El rugido del sonido latino moderno</span>
+            <span className={styles.tagline}>Sello discográfico latino</span>
           </div>
           <div className={styles.social}>
             <h4>Síguenos</h4>
