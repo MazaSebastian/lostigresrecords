@@ -1,0 +1,164 @@
+.contacto {
+  padding: 120px 0;
+  background: linear-gradient(180deg, #000000 0%, #1a1a1a 100%);
+}
+
+@media (max-width: 768px) {
+  .contacto {
+    padding: 80px 0;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #C0C0C0 0%, #888888 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #AAAAAA;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 60px;
+  align-items: start;
+}
+
+@media (max-width: 968px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.info h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 16px;
+  color: #AAAAAA;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detail {
+  font-size: 15px;
+  color: #C0C0C0;
+}
+
+.detail strong {
+  display: block;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.detail a {
+  color: #C0C0C0;
+  transition: color 0.3s ease;
+}
+
+.detail a:hover {
+  color: #FFFFFF;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.inputGroup {
+  position: relative;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  width: 100%;
+  padding: 16px 20px;
+  background: rgba(192, 192, 192, 0.05);
+  border: 1px solid rgba(192, 192, 192, 0.2);
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.inputGroup input::placeholder,
+.inputGroup textarea::placeholder {
+  color: #666666;
+}
+
+.inputGroup input:focus,
+.inputGroup textarea:focus {
+  outline: none;
+  border-color: #C0C0C0;
+  background: rgba(192, 192, 192, 0.08);
+}
+
+.inputGroup textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submitButton {
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #C0C0C0 0%, #888888 100%);
+  color: #000000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.submitButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 40px rgba(192, 192, 192, 0.3);
+}
+
+@media (max-width: 768px) {
+  .submitButton {
+    width: 100%;
+  }
+}
