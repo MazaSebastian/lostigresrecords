@@ -7,22 +7,8 @@ export default function Nosotros() {
   const [visibleCards, setVisibleCards] = useState<number[]>([]);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const cardId = parseInt(entry.target.getAttribute('data-id') || '0');
-            setVisibleCards(prev => [...prev, cardId]);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    const cards = document.querySelectorAll('[data-card]');
-    cards.forEach(card => observer.observe(card));
-
-    return () => observer.disconnect();
+    // Mostrar todas las tarjetas inmediatamente
+    setVisibleCards([1, 2, 3, 4]);
   }, []);
 
   const nosotrosData = [
