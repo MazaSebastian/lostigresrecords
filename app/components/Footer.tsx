@@ -8,23 +8,22 @@ export default function Footer() {
           <div className={styles.brand}>
             <h3>LOS TIGRES</h3>
             <p>RECORDS</p>
-            <span className={styles.tagline}>Sello discográfico latino</span>
+            <span className={styles.tagline}>Productora Musical</span>
           </div>
           <div className={styles.social}>
-            <h4>Síguenos</h4>
+            <h4>Servicios</h4>
             <div className={styles.socialLinks}>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                Instagram
-              </a>
-              <a href="https://spotify.com" target="_blank" rel="noopener noreferrer">
-                Spotify
-              </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-                YouTube
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                Twitter
-              </a>
+              <a href="#servicios">Producción Musical</a>
+              <a href="#servicios">Mezcla y Mastering</a>
+              <a href="#servicios">Distribución Digital</a>
+              <a href="#servicios">Marketing Musical</a>
+            </div>
+          </div>
+          <div className={styles.contact}>
+            <h4>Contacto</h4>
+            <div className={styles.contactInfo}>
+              <a href="mailto:info@lostigresrecords.com">info@lostigresrecords.com</a>
+              <a href="tel:+15551234567">+1 (555) 123-4567</a>
             </div>
           </div>
         </div>

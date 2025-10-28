@@ -1,8 +1,8 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Artistas from './components/Artistas';
-import Lanzamientos from './components/Lanzamientos';
-import Noticias from './components/Noticias';
+import Nosotros from './components/Nosotros';
+import Servicios from './components/Servicios';
+import Portfolio from './components/Portfolio';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import './globals.css';
@@ -12,9 +12,9 @@ export default function Home() {
     <main>
       <Header />
       <Hero />
-      <Artistas />
-      <Lanzamientos />
-      <Noticias />
+      <Nosotros />
+      <Servicios />
+      <Portfolio />
       <Contacto />
       <Footer />
     </main>

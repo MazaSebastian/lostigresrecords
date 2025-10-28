@@ -35,11 +35,17 @@ export default function Hero() {
           <h1 className={styles.title}>
             LOS TIGRES <span className={styles.titleGradient}>RECORDS</span>
           </h1>
+          <p className={styles.subtitle}>
+            Productora Musical
+          </p>
+          <p className={styles.description}>
+            Impulsamos artistas y empresas a través de nuestros servicios discográficos como productora.
+          </p>
           <button 
             className={styles.ctaButton}
-            onClick={() => scrollToSection('artistas')}
+            onClick={() => scrollToSection('nosotros')}
           >
-            Explorar Artistas
+            HABLEMOS
           </button>
         </div>
       </div>

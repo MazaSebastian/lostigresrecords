@@ -18,7 +18,7 @@
 
 .content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 60px;
   margin-bottom: 40px;
 }
@@ -53,27 +53,32 @@
   font-style: italic;
 }
 
-.social h4 {
+.social h4,
+.contact h4 {
   font-size: 18px;
   color: #FFFFFF;
   margin-bottom: 20px;
   font-weight: 600;
 }
 
-.socialLinks {
+.socialLinks,
+.contactInfo {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.socialLinks a {
+.socialLinks a,
+.contactInfo a {
   font-size: 15px;
   color: #AAAAAA;
   transition: all 0.3s ease;
   display: inline-block;
+  text-decoration: none;
 }
 
-.socialLinks a:hover {
+.socialLinks a:hover,
+.contactInfo a:hover {
   color: #FFFFFF;
   transform: translateX(5px);
 }

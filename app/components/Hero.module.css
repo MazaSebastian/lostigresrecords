@@ -115,16 +115,44 @@
 }
 
 .subtitle {
-  font-size: 24px;
+  font-size: 28px;
   color: #C0C0C0;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 18px;
+  color: #AAAAAA;
   font-weight: 300;
   margin-bottom: 40px;
-  letter-spacing: 1px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 768px) {
   .subtitle {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subtitle {
     font-size: 18px;
+  }
+  
+  .description {
+    font-size: 14px;
   }
 }
 

@@ -1,0 +1,223 @@
+.servicios {
+  padding: 100px 0;
+  background: #000000;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #C0C0C0;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.ctaButton {
+  padding: 16px 48px;
+  font-size: 18px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #C0C0C0 0%, #888888 100%);
+  color: #000000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ctaButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 40px rgba(192, 192, 192, 0.3);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.card {
+  background: rgba(20, 20, 20, 0.9);
+  border: 1px solid rgba(192, 192, 192, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  backdrop-filter: blur(10px);
+}
+
+.card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(192, 192, 192, 0.3);
+  box-shadow: 0 15px 30px rgba(192, 192, 192, 0.1);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.cardTitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.cardDescription {
+  font-size: 15px;
+  color: #AAAAAA;
+  line-height: 1.6;
+}
+
+.platforms {
+  text-align: center;
+  padding: 60px 0;
+  background: rgba(20, 20, 20, 0.5);
+  border-radius: 20px;
+  border: 1px solid rgba(192, 192, 192, 0.1);
+}
+
+.platformsTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #C0C0C0;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.platformsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.platform {
+  padding: 15px 20px;
+  background: rgba(192, 192, 192, 0.1);
+  border-radius: 10px;
+  color: #C0C0C0;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.platform:hover {
+  background: rgba(192, 192, 192, 0.2);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .servicios {
+    padding: 80px 0;
+  }
+  
+  .container {
+    padding: 0 20px;
+  }
+  
+  .title {
+    font-size: 36px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 60px;
+  }
+  
+  .card {
+    padding: 25px 20px;
+  }
+  
+  .platforms {
+    padding: 40px 20px;
+  }
+  
+  .platformsTitle {
+    font-size: 20px;
+  }
+  
+  .platformsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .servicios {
+    padding: 60px 0;
+  }
+  
+  .title {
+    font-size: 28px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+  }
+  
+  .ctaButton {
+    padding: 14px 36px;
+    font-size: 16px;
+  }
+  
+  .card {
+    padding: 20px 15px;
+  }
+  
+  .cardTitle {
+    font-size: 18px;
+  }
+  
+  .cardDescription {
+    font-size: 14px;
+  }
+  
+  .platformsTitle {
+    font-size: 18px;
+  }
+  
+  .platform {
+    font-size: 12px;
+    padding: 12px 15px;
+  }
+}

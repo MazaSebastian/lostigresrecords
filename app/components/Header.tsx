@@ -52,9 +52,9 @@ export default function Header() {
         {/* Menú de navegación */}
         <nav className={`${styles.nav} ${mobileMenuOpen ? styles.navOpen : ''}`}>
           <a href="#inicio" onClick={(e) => { e.preventDefault(); scrollToSection('inicio'); }}>Inicio</a>
-          <a href="#artistas" onClick={(e) => { e.preventDefault(); scrollToSection('artistas'); }}>Artistas</a>
-          <a href="#lanzamientos" onClick={(e) => { e.preventDefault(); scrollToSection('lanzamientos'); }}>Lanzamientos</a>
-          <a href="#noticias" onClick={(e) => { e.preventDefault(); scrollToSection('noticias'); }}>Noticias</a>
+          <a href="#nosotros" onClick={(e) => { e.preventDefault(); scrollToSection('nosotros'); }}>Nosotros</a>
+          <a href="#servicios" onClick={(e) => { e.preventDefault(); scrollToSection('servicios'); }}>Servicios</a>
+          <a href="#portfolio" onClick={(e) => { e.preventDefault(); scrollToSection('portfolio'); }}>Portfolio</a>
           <a href="#contacto" onClick={(e) => { e.preventDefault(); scrollToSection('contacto'); }}>Contacto</a>
         </nav>
       </div>
