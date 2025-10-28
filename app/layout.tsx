@@ -9,20 +9,20 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Los Tigres Records",
-  description: "Sello discográfico latino de música moderna. Descubre artistas, lanzamientos y más.",
+  title: "Los Tigres Records - Productora Musical",
+  description: "Productora musical especializada en composición, producción e interpretación. Convertimos tus ideas en hits y potenciamos carreras artísticas.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   openGraph: {
-    title: "Los Tigres Records",
-    description: "Sello discográfico latino de música moderna. Descubre artistas, lanzamientos y más.",
+    title: "Los Tigres Records - Productora Musical",
+    description: "Productora musical especializada en composición, producción e interpretación. Convertimos tus ideas en hits y potenciamos carreras artísticas.",
     url: "https://lostigresrecords.vercel.app",
     siteName: "Los Tigres Records",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Los Tigres Records",
-    description: "Sello discográfico latino de música moderna. Descubre artistas, lanzamientos y más.",
+    title: "Los Tigres Records - Productora Musical",
+    description: "Productora musical especializada en composición, producción e interpretación. Convertimos tus ideas en hits y potenciamos carreras artísticas.",
   },
 };
 
